@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+}
+
+.container > .left-column {
+    min-height: 100vh;
+    width: 15%;
+    background-color: aqua;
+    
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter {
+    display: flex;
+    height: 80px;
+    background-color: pink;
+}
+
+.meal-list{
+    display: flex;
+    height: 700px;
+    background-color: orange
+}
+
+.load-section {
+    display: flex;
+    height: 50px;
+    background-color: azure;
+}
+
+
+.right-column {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+@media(max-width:1300px){
+    .right-column {
+    width: 800px;
+    margin: 0 calc((100% - 800px) / 2);
+    display: none;
+}
+}

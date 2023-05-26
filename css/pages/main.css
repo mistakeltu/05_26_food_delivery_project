@@ -2,3 +2,7 @@
 
 @import '../../css/Ubuntu.css';
 
+/* BASE */
+
+@import '../base/layout.css';
+@import '../base/base.css';
