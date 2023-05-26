@@ -13,9 +13,9 @@ Food delivery project
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://mistakeltu.github.io/
+Site published at: https://mistakeltu.github.io/05_26_food_delivery_project/
 
-Design: 
+Design: https://github.com/belauzas/food-delivery-platform-task/blob/master/screenshots/design-1.png?raw=true
 
 ## 🎯 Project features/goals
 
