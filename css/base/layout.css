@@ -1,12 +1,14 @@
 .container {
     width: 100%;
     display: flex;
+    min-width: 450px;
 }
 
 .left-column {
     display: inline-block;
     min-height: 100vh;
     width: 300px;
+    max-width: 300px;
     background-color: aqua;
     
 }
@@ -37,7 +39,7 @@
 
 
 .right-column {
-    width: 500px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     background-color: bisque;
@@ -45,8 +47,13 @@
 
 @media(max-width:1400px){
     .right-column {
-    width: 1200px;
-    margin: 0 calc((100% - 800px) / 2);
     display: none;
 }
 }
+
+@media(max-width:1000px){
+    span {
+        display: none;
+    }
+}
+
