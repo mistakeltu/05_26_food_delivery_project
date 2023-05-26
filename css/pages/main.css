@@ -6,3 +6,65 @@
 
 @import '../base/layout.css';
 @import '../base/base.css';
+
+/* COMPONENTS */
+
+/* VENDORS */
+
+@import '../vendor/font-awesome.min.css';
+
+:root {
+    font-family: Ubuntu;
+    --main-color: #44d187;
+    
+    .nothing{
+        color: #44d187;
+        color: #ffd42e;
+    color:#d74369;
+    color:#fafafa;
+    color:#e5bde5;
+    color:#e5d4a7;
+    color:#93e5e5;
+    color:#a8e5e5;
+    color:#cae58f;
+    color:#c5d7e5;
+    color:#e5c1c1;
+    color:#e5e58b;
+    color:#e5bde5;
+     
+    }
+    
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 0 30px;
+    gap: 15px;
+}
+
+.menu > .menu-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.6em;
+    border-radius: 20px 0 0 20px;
+    transition: all 1s;
+}
+
+.menu > .menu-link:hover{
+    background-color: white;
+    color: var(--main-color);
+    transition: all 0.3s;
+}
+
+.menu > .active {
+    background-color: white;
+    color: #44d187;
+}
+
+.font-awe {
+    margin: 0 15px 0 15px;
+    display: inline-block;
+}

@@ -1,16 +1,20 @@
 .container {
+    width: 100%;
     display: flex;
+    min-width: 450px;
 }
 
-.container > .left-column {
+.left-column {
+    display: inline-block;
     min-height: 100vh;
-    width: 15%;
-    background-color: aqua;
+    width: 300px;
+    max-width: 300px;
+    background-color: var(--main-color);
     
 }
 
 .main-content {
-    width: 100%;
+    width: 1200px;
     display: flex;
     flex-direction: column;
 }
@@ -23,7 +27,7 @@
 
 .meal-list{
     display: flex;
-    height: 700px;
+    height: 7000px;
     background-color: orange
 }
 
@@ -35,16 +39,21 @@
 
 
 .right-column {
-    width: 25%;
+    width: 450px;
     display: flex;
     flex-direction: column;
     background-color: bisque;
 }
 
-@media(max-width:1300px){
+@media(max-width:1400px){
     .right-column {
-    width: 800px;
-    margin: 0 calc((100% - 800px) / 2);
     display: none;
 }
 }
+
+@media(max-width:1005px){
+    span {
+        display: none;
+    }
+}
+
