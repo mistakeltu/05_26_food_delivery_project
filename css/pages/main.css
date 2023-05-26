@@ -6,3 +6,37 @@
 
 @import '../base/layout.css';
 @import '../base/base.css';
+
+/* COMPONENTS */
+
+/* VENDORS */
+
+@import '../vendor/font-awesome.min.css';
+
+:root {
+    font-family: Ubuntu;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 0 30px;
+    gap: 15px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu-link:hover{
+    background-color: white;
+    padding: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    color: green;
+}
+
+.font-awe {
+    margin-right: 7px;
+}
