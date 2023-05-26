@@ -24,16 +24,23 @@
     gap: 15px;
 }
 
-.menu-link {
+.menu > .menu-link {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    padding: 0.5em;
+    border-radius: 5px 0 0 5px;
+    transition: all 1s;
 }
 
-.menu-link:hover{
+.menu > .menu-link:hover{
     background-color: white;
-    padding: 5px 0 0 5px;
-    border-radius: 5px 0 0 5px;
+    color: green;
+    transition: all 0.3s;
+}
+
+.menu > .active {
+    background-color: white;
     color: green;
 }
 
