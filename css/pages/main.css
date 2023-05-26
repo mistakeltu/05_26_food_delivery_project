@@ -15,6 +15,26 @@
 
 :root {
     font-family: Ubuntu;
+    --main-color: #44d187;
+    
+    .nothing{
+        color: #44d187;
+        color: #ffd42e;
+    color:#d74369;
+    color:#fafafa;
+    color:#e5bde5;
+    color:#e5d4a7;
+    color:#93e5e5;
+    color:#a8e5e5;
+    color:#cae58f;
+    color:#c5d7e5;
+    color:#e5c1c1;
+    color:#e5e58b;
+    color:#e5bde5;
+     
+    }
+    
+    
 }
 
 .menu {
@@ -35,21 +55,13 @@
 
 .menu > .menu-link:hover{
     background-color: white;
-    color: green;
-    transition: all 0.3s;
-}
-
-
-
-.menu > .menu-btn:hover{
-    background-color: white;
-    color: green;
+    color: var(--main-color);
     transition: all 0.3s;
 }
 
 .menu > .active {
     background-color: white;
-    color: green;
+    color: #44d187;
 }
 
 .font-awe {
