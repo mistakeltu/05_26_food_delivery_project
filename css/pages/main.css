@@ -100,3 +100,72 @@
     justify-content: space-between;
 }
 
+.meal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 45px;
+    gap: 30px;
+}
+
+.meal-one {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.meal-two {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.meal-three {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.meal-four {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.meal-five {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.meal-six {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+.meal-seven {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.meal-eight {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.meal-nine {
+    height: 255px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+}

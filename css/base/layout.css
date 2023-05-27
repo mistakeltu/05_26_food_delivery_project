@@ -25,8 +25,6 @@
 
 .meal-list{
     display: flex;
-    height: 7000px;
-    background-color: orange
 }
 
 .load-section {
@@ -55,15 +53,22 @@
     }
 }
 
-@media(max-width:700px){
+@media(max-width:600px){
         .recomended {
             display: flex;
             flex-direction: column;
         }
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     .main-content .filter {
         display: none;
+}
+}
+
+@media(max-width:1500px){
+    .meal-list{
+        flex-wrap: wrap;
+        background-color: aqua;
 }
 }
