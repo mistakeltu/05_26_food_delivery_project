@@ -278,9 +278,10 @@ img {
 .my-order {
     display: flex;
     flex-direction: column;
-    height: 22%;
-    margin: 20px 30px;
+    max-height: 22%;
+    margin: 20px;
     gap: 20px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #c5d7e5;
 }
 
@@ -294,4 +295,50 @@ img {
     height: 20px;
     width: 20px;
     margin-right: 10px;
+}
+
+.items-ordered {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    padding-bottom: 25px;
+
+}
+
+.dishes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.add-meal {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 22px;
+    width: 75px;
+    border-radius: 10px;
+    border: 1px solid #44d187;
+    margin-left: 30px;
+}
+
+.minus, .plius {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    padding: 4px 7px;
+}
+
+.minus:hover {
+    background-color: #44d187;
+    border-radius: 10px 0 0 10px;
+}
+
+.plius:hover {
+    background-color: #44d187;
+    border-radius: 0 10px 10px 0;
 }
