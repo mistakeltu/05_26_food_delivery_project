@@ -23,16 +23,20 @@
     gap: 10px;
 }
 
-.meal-list{
+.meal-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px 70px 20px 70px;
+    gap: 30px;
 }
 
 .load-section {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
-    background-color: azure;
 }
-
 
 .right-column {
     width: 30%;

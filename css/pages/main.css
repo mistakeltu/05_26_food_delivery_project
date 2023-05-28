@@ -57,7 +57,7 @@
 }
 
 .menu > .menu-link:hover{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     color: var(--main-color);
     transition: all 0.3s;
 }
@@ -92,13 +92,19 @@
 
 .filter a:hover {
     border-radius: 20px;
-    background-color: #44d187;
+    background-color: var(--main-color);
     color: #fafafa;
 }
 
 .filter a.filter-active{
     border-radius: 20px;
-    background-color: #44d187;
+    background-color: var(--main-color);
+    color: #fafafa;
+}
+
+.filter a.filter-active:hover{
+    border-radius: 20px;
+    background-color: rgba(68, 209, 135, 0.9);
     color: #fafafa;
 }
 
@@ -108,32 +114,16 @@
     margin: 20px 20px 0 20px;
 }
 
-.meal-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 70px;
-    gap: 30px;
-}
-
-.meal-one {
-    display: flex;
-    flex-direction: column;
-    height: 255px;
-    width: 230px;
-    background-color: #e5c1c1;
-    border-radius: 5px;
-}
-
 .rating {
     display: flex;
     justify-content: space-between;
+    margin: 10px 10px 0 10px;
 }
 
 .meal-img {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
@@ -149,62 +139,121 @@ img {
     gap: 10px;
 }
 
+.stars {
+    padding: 0 8px;
+    background: black;
+    border-radius: 10px;
+    color: #fafafa;
+}
+
+.love-active {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    text-align: center;
+    color: #d74369;
+}
+
+.dish-name {
+    margin-left: 10px;
+    background-color: aliceblue; 
+    border-radius: 10px; 
+    padding: 2px 5px; 
+}
+
+.love {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+}
+
+.love:hover {
+    color: #d74369;
+}
+
+.loader a {
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    color: #fafafa;
+}
+
+.meal-one {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 230px;
+    background-color: rgba(229, 193, 193, 0.5);
+    border-radius: 5px;
+}
+
 .meal-two {
     height: 255px;
     width: 230px;
-    background-color: black;
+    background-color: rgba(229, 212, 167, 0.5);
     border-radius: 5px;
 }
 
 .meal-three {
     height: 255px;
     width: 230px;
-    background-color: black;
+    background-color: rgba(147, 229, 229, 0.5);
     border-radius: 5px;
 }
 
 .meal-four {
     height: 255px;
     width: 230px;
-    background-color: black;
+    background-color: rgba(168, 229, 229, 0.5);
     border-radius: 5px;
 }
 
 .meal-five {
     height: 255px;
     width: 230px;
-    background-color: black;
+    background-color: rgba(202, 229, 143, 0.5);
     border-radius: 5px;
 }
 
 .meal-six {
     height: 255px;
     width: 230px;
-    background-color: black;
+    background-color: rgba(197, 215, 229, 0.5);
     border-radius: 5px;
 }
 .meal-seven {
     height: 255px;
     width: 230px;
-    background-color: black;
+    background-color: rgba(229, 193, 193, 0.5);
     border-radius: 5px;
 }
 
 .meal-eight {
     height: 255px;
     width: 230px;
-    background-color: black;
+    background-color: rgba(229, 229, 139, 0.5);
     border-radius: 5px;
 }
 
 .meal-nine {
     height: 255px;
     width: 230px;
-    background-color: black;
+    background-color: rgba(229, 189, 229, 0.5);
     border-radius: 5px;
 }
 
-.pasirinkimas {
+.drop-down {
     border: none;
     font-family: Ubuntu;
     font-size: 16px;
