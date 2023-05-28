@@ -6,7 +6,7 @@
 .left-column {
     display: inline-block;
     min-height: 100vh;
-    min-width: 20%;
+    min-width: 18%;
     background-color: var(--main-color);
     
 }
@@ -19,20 +19,24 @@
 
 .filter {
     display: flex;
-    background-color: pink;
     margin-top: 20px;
+    gap: 10px;
 }
 
-.meal-list{
+.meal-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px 70px 20px 70px;
+    gap: 30px;
 }
 
 .load-section {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
-    background-color: azure;
 }
-
 
 .right-column {
     width: 30%;
@@ -48,7 +52,7 @@
 }
 
 @media(max-width:1100px){
-    span {
+    .left-column span {
         display: none;
     }
 }
@@ -69,6 +73,5 @@
 @media(max-width:1500px){
     .meal-list{
         flex-wrap: wrap;
-        background-color: aqua;
 }
 }
