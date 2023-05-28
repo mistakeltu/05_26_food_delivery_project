@@ -102,7 +102,7 @@
     color: #fafafa;
 }
 
-.recomended {
+.main-content .recomended {
     display: flex;
     justify-content: space-between;
     margin: 20px 20px 0 20px;
@@ -112,7 +112,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px;
+    padding: 70px;
     gap: 30px;
 }
 
