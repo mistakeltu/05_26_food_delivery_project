@@ -28,7 +28,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 70px 70px 20px 70px;
-    gap: 30px;
+    gap: 120px;
 }
 
 .load-section {
@@ -45,7 +45,7 @@
     background-color: #fafafa;
 }
 
-@media(max-width:1400px){
+@media(max-width:1760px){
     .right-column {
     display: none;
 }

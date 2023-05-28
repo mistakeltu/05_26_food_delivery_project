@@ -309,7 +309,7 @@ img {
 .dishes {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
     font-size: 14px;
     text-align: left;
 }
@@ -323,7 +323,7 @@ img {
     width: 75px;
     border-radius: 10px;
     border: 1px solid #44d187;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .minus, .plius {
@@ -341,4 +341,80 @@ img {
 .plius:hover {
     background-color: #44d187;
     border-radius: 0 10px 10px 0;
+}
+
+.cancel-icon {
+    margin-left: 10px;
+    color: grey;
+}
+
+.cancel-icon:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.drag-drop-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 22px;
+    margin: 20px;
+    gap: 20px;
+    padding-bottom: 25px;
+    border: 3px dashed var(--main-color)
+}
+
+.drag-drop {
+    margin-top: 11px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    max-height: 22px;
+    margin: 20px;
+    padding-bottom: 25px;
+    font-size: 20px;
+
+}
+
+.checkout {
+    max-height: 22px;
+    margin: 20px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #44d187;
+    border-radius: 20px;
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.checkout > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.checkout:hover {
+    background-color: rgba(68, 209, 135, 0.8);
+}
+
+.visa {
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.img-visa {
+    width: 45px;
+    height: 20px;
+}
+
+.pencil-icon {
+    margin-left: 20px;
 }
