@@ -19,8 +19,8 @@
 
 .filter {
     display: flex;
-    background-color: pink;
     margin-top: 20px;
+    gap: 10px;
 }
 
 .meal-list{
@@ -69,6 +69,5 @@
 @media(max-width:1500px){
     .meal-list{
         flex-wrap: wrap;
-        background-color: aqua;
 }
 }

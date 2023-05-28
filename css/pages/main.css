@@ -9,6 +9,8 @@
 
 /* COMPONENTS */
 
+@import '../../css/components/button.css';
+
 /* VENDORS */
 
 @import '../vendor/font-awesome.min.css';
@@ -73,12 +75,11 @@
 .p-filter {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
-.filter {
-    display: flex;
-    gap: 10px;
+.filter-awe {
+    margin-right: 10px;
 }
 
 .filter a{
@@ -86,10 +87,16 @@
     text-decoration: none;
     color: black;
     align-items: center;
+    padding: 5px 10px;
 }
 
 .filter a:hover {
-    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #44d187;
+    color: #fafafa;
+}
+
+.filter a.filter-active{
     border-radius: 20px;
     background-color: #44d187;
     color: #fafafa;
@@ -98,6 +105,7 @@
 .recomended {
     display: flex;
     justify-content: space-between;
+    margin: 20px 20px 0 20px;
 }
 
 .meal-list {
@@ -168,4 +176,11 @@
     width: 230px;
     background-color: black;
     border-radius: 5px;
+}
+
+.pasirinkimas {
+    border: none;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: bold;
 }
