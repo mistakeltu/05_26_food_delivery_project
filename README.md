@@ -5,7 +5,7 @@
 
 # Food delivery project
 
-Food delivery project
+Food delivery design prototype with responsive layout.
 
 <br>
 
@@ -20,10 +20,11 @@ Design: https://github.com/belauzas/food-delivery-platform-task/blob/master/scre
 ## 🎯 Project features/goals
 
 -   Github pages
--   git branch
--   responsive design
+-   Git branch
+-   Responsive design
 -   CSS animation
--   form
+-   Forms
+-   Drop down
 -   FontAwesome icons
 -   CSS units: vh, vw, vmin, vmax
 
