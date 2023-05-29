@@ -27,6 +27,9 @@ Design: https://github.com/belauzas/food-delivery-platform-task/blob/master/scre
 -   Drop down
 -   FontAwesome icons
 -   Custom font
+-   @Media
+-   Relative url's
+-   Custom properties
 -   CSS units: vh, vw, vmin, vmax
 
 ## 🧰 Getting Started
