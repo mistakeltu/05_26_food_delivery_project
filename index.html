@@ -15,6 +15,7 @@
 </head>
 <body>
     <div class="container">
+        <!-- Left menu section -->
         <div class="left-column">
             <div class="menu">                
                 <a class="menu-link" href="#"><i class="fa fa-th-large font-awe" aria-hidden="true"></i><span>Overview</span></a>
@@ -25,7 +26,9 @@
                 <a class="menu-link" href="#"><i class="fa fa-question-circle-o font-awe" aria-hidden="true"></i><span>Faq</span></a>
             </div>
         </div>
+        <!-- Main content section -->
         <div class="main-content">
+        <!-- Meal section head -->
             <div class="filter">
                 <p class="p-filter">My filters:</p>
                 <a class="filter-active" href="#"><i class="fa fa-cutlery filter-awe" aria-hidden="true"></i>First meal</a>
@@ -35,17 +38,19 @@
             <div class="recomended">
                 <p><span style="font-weight: bold;">345</span> meals found </p>
                 <div class="sort-by">
+        <!-- Drop down section -->
                     <label>Sorted by:</label>
                     <select style="cursor: pointer;" class="drop-down">
                         <option>Recomended</option>
                         <option>Calories</option>
                         <option>Price</option>
                     </select>
-                </div>
-                
+                </div> 
             </div>
+        <!-- All main meal list content and refresh button -->
             <div class="meal-list">
                 <div class="meal-one">
+        <!-- div and class rating connects star icon and heart icon -->            
                     <div class="rating">
                         <div> 
                             <p class="stars"><i class="fa fa-star" aria-hidden="true" style="color: #ffd42e;"></i> 4.5</p>
@@ -56,7 +61,7 @@
                     </div>
                     <div class="meal-img">
                        <img src="./img/food-1.webp" alt="Meal-foto"> 
-                    </div>
+                    </div>           
                     <div class="meal-price">
                         <p>Dish name <span class="dish-name" style="color: #e5c1c1">200g</span></p>
                         <span style="font-weight: bold;">$4.99</span>
@@ -199,18 +204,21 @@
                     </div>
                 </div>
             </div>
+        <!-- Refresh button -->
             <div class="load-section">
                 <div class="loader">
                     <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i>Load more</a>
                 </div>
             </div>
         </div>
+        <!-- Customer menu section -->
         <div class="right-column">
             <div class="customer-info">
                 <a href="#"><i style="color: black;" class="fa fa-bell-o" aria-hidden="true"></i></a>
                 <a href="#"><img style="width: 30px; height: 30px;" src="./img/user.png" alt="User"></a>
                 <a href="#"><i style="color: black;" class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
             </div>
+        <!-- My order section -->
             <div class="my-order">
                 <h2>My order</h2>
                 <p><i class="fa fa-clock-o order-icon" aria-hidden="true"></i>14:30 AM</p>
@@ -219,11 +227,11 @@
             </div>
             <div class="items-ordered">
                 <div class="dishes">
+        <!-- One item class connects dish img and <p>-->            
                     <div class="one-item">
                     <img style="width: 45px; height: 45px;" src="./img/food-1.webp" alt="Meal-foto">
                     <p>Dish name <br><span style="color: grey;">200g</span></p>
                     </div>
-
                     <div class="add-meal">
                         <a class="minus" href="#">-</a>
                         <p>1</p>
