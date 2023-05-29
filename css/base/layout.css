@@ -6,7 +6,7 @@
 .left-column {
     display: inline-block;
     min-height: 100vh;
-    min-width: 18%;
+    min-width: 252px;
     background-color: var(--main-color);
     
 }
@@ -52,6 +52,9 @@
 }
 
 @media(max-width:1100px){
+    .left-column {
+        min-width: 100px;
+    }
     .left-column span {
         display: none;
     }
