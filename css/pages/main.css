@@ -88,6 +88,16 @@
 
 /* Right menu */
 
+.dot-message{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--main-color)
+}
+
 .customer-info {
     display: flex;
     justify-content: flex-end;
@@ -246,4 +256,3 @@
 .pencil-icon {
     color: black;
 }
-
