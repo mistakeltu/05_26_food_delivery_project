@@ -308,10 +308,17 @@ img {
 
 .dishes {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
     font-size: 14px;
     text-align: left;
+}
+
+.one-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .add-meal {
@@ -323,7 +330,6 @@ img {
     width: 75px;
     border-radius: 10px;
     border: 1px solid #44d187;
-    margin-left: 50px;
 }
 
 .minus, .plius {
@@ -405,17 +411,17 @@ img {
 
 .visa {
     display: flex;
+    justify-content: space-between;
     margin: 20px;
     gap: 30px;
-    justify-content: center;
 }
 
 .img-visa {
     width: 45px;
-    height: 20px;
+    height: 15px;
 }
 
 .pencil-icon {
-    margin-left: 20px;
     color: black;
 }
+
