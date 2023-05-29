@@ -1,0 +1,65 @@
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 0 10px;
+}
+
+.meal-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.meal-price {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 10px;
+    gap: 10px;
+}
+
+.stars {
+    padding: 0 8px;
+    background: black;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.love-active {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    text-align: center;
+    color: #d74369;
+}
+
+.dish-name {
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 10px; 
+    padding: 2px 5px; 
+}
+
+.love {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+}
+
+.love:hover {
+    color: #d74369;
+}

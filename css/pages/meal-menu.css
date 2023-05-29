@@ -1,0 +1,63 @@
+.meal-one {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 230px;
+    background-color: rgba(229, 193, 193, 0.5);
+    border-radius: 5px;
+}
+
+.meal-two {
+    height: 255px;
+    width: 230px;
+    background-color: rgba(229, 212, 167, 0.5);
+    border-radius: 5px;
+}
+
+.meal-three {
+    height: 255px;
+    width: 230px;
+    background-color: rgba(147, 229, 229, 0.5);
+    border-radius: 5px;
+}
+
+.meal-four {
+    height: 255px;
+    width: 230px;
+    background-color: rgba(168, 229, 229, 0.5);
+    border-radius: 5px;
+}
+
+.meal-five {
+    height: 255px;
+    width: 230px;
+    background-color: rgba(202, 229, 143, 0.5);
+    border-radius: 5px;
+}
+
+.meal-six {
+    height: 255px;
+    width: 230px;
+    background-color: rgba(197, 215, 229, 0.5);
+    border-radius: 5px;
+}
+.meal-seven {
+    height: 255px;
+    width: 230px;
+    background-color: rgba(229, 193, 193, 0.5);
+    border-radius: 5px;
+}
+
+.meal-eight {
+    height: 255px;
+    width: 230px;
+    background-color: rgba(229, 229, 139, 0.5);
+    border-radius: 5px;
+}
+
+.meal-nine {
+    height: 255px;
+    width: 230px;
+    background-color: rgba(229, 189, 229, 0.5);
+    border-radius: 5px;
+}
